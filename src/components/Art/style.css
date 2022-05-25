@@ -6,6 +6,7 @@
 
 .image {
     width: fit-content;
+    height: auto;
     border: 2px solid black;
     margin: 1em;
 

@@ -19,7 +19,7 @@ const Art = (props) =>{
             }
         }
         fetchData();
-    }, [])
+    }, [props.artId])
 
 console.log(artData)
 
@@ -35,9 +35,7 @@ console.log(artData)
             <div className="image">
                 <img src={artData.primaryImageSmall} alt={artData.title} />
             </div>
-            <div>
-                <a href="/">Return To Homepage</a>
-            </div>
+
         </div>
     )
 }

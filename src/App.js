@@ -13,7 +13,7 @@ function App() {
   
   const setIdAndLink = (id) => {
     setArtId(id)
-    navigate('/art')
+    // navigate('/art')
   }
 
   return (
@@ -32,10 +32,12 @@ function App() {
         </div>
 
         <div className='detail'>
-          {/* <Art artId={artId} /> */}
-          <Routes>
+          {
+            artId ? <Art artId={artId} /> : null
+          }
+          {/* <Routes>
             <Route path="/art" element={<Art artId={artId} />} />
-          </Routes>
+          </Routes> */}
         </div>
 
       </div>

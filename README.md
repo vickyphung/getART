@@ -6,6 +6,7 @@ React.js
 Still in development. 
 
 
+![Preview of get-met app](https://media.giphy.com/media/KS6BlhJTN0ccAxs2E2/giphy.gif)
 
 
 

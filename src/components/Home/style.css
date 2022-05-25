@@ -1,0 +1,51 @@
+.itemized {
+    padding: 2px;
+    margin-bottom: 3px;
+    list-style-type: none;
+    border: 1px solid rgb(25, 156, 196);
+    border-radius: .7em;
+    background-color: rgb(24, 144, 180);
+
+}
+
+.objID {
+    display: inline;
+
+
+    border-radius: .4em;
+    padding: .1em;
+    color: white;
+
+    letter-spacing: .3px;
+}
+.inputText {
+    width: 55%;
+    border: 2px solid rgb(25, 156, 196);
+    border-radius: .6em;
+    font-size: 1.2em;
+}
+
+button {
+    border-radius: .5em;
+    border: 1.5px solid seagreen;
+    background-color: rgb(25, 156, 196);
+    color: rgb(255, 255, 255);
+    margin-left: 5px;
+    padding: 2px;
+}
+
+.detailsBtn {
+    margin-left: 8em;
+    border: 1px solid rgba(255, 255, 255, 0.644);
+    padding-left: 7px;
+    padding-right: 7px;
+    color: rgba(241, 234, 234, 0.911);
+    letter-spacing: .3px;
+}
+.searchBar {
+    margin-bottom: 20px;
+}
+
+.results {
+    margin-left: 10px;
+}

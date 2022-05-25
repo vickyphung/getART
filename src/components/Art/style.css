@@ -1,0 +1,12 @@
+.artDetails{
+    margin: 1em;
+    display: flex;
+    flex-direction: column;
+}
+
+.image {
+    width: fit-content;
+    border: 2px solid black;
+    margin: 1em;
+
+}
